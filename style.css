@@ -1,0 +1,79 @@
+/* sign in button class */
+.button-signup{
+    border-radius: 25px;
+    border-color: none;
+}
+
+.green-highlight{
+    color: #28a745;
+    font-weight: bold;
+}
+
+.question-quote{
+    color: red;
+}
+
+.started-button{
+    border-radius: 35px;
+}
+
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bg-color{
+   background-color:#F0FFF0;
+}
+
+
+/* Card background and border radius */
+.card{
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    
+    
+}
+
+/* sec-card background(white) and box-shadow */
+.sec-card-bg{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 25px rgb(197, 196, 196);
+}
+
+.card-text{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color:white;
+}
+
+.footer-bg{
+    background-color: #282531;
+}
+
+/* footer font color */
+.footer-list-title{
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* Buy course box-shadow */
+.buy-course-box{
+    box-shadow: 5px 5px 25px rgb(197, 196, 196);;
+}
+
+.course-header{
+    font-weight: bold;
+}

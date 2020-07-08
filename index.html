@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-School</title>
+
+    <!-- This is Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- My local CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="ICON/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="bg-color">
+        <div class="container bg-color">
+            <!-- This is Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+    
+                <!-- Logo -->
+                <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="ICON/Logo.png" width="199" height="59" class="d-inline-block align-top" alt="E-School" loading="lazy">
+                </a>
+                </nav>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Left Nav -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link mr-4" href="#">Books</a>
+                    <a class="nav-item nav-link mr-4" href="#">Cources</a>
+                    <a class="nav-item nav-link mr-4" href="#">Others</a>
+                    <a class="nav-item nav-link mr-4" href="#">Blog</a>
+                    <!-- Took a extra class name "button-signup" for customize sign in button -->
+                    <button type="button" class="btn btn-success button-signup">Sign-in</button>
+                  </div>
+                </div>
+              </nav>
+    
+              <!-- This is Jumbtron -->
+    
+              <!-- Jumbotron Right Portion -->
+              <div class="jumbotron">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 mt-5">
+
+                        <!-- Took a h6 and span to make the question quote -->
+                        <h6><span class="question-quote ">Are you ready to learn?</span></h6>
+
+                        <!-- Main motto tag -->
+                        <h1 class="display-4">Learn with fun <br> on <span class="green-highlight">any schedule</span></h1>
+                        <p class="lead">A Building With Four Walls And Tomorrow Inside,A community of lifelong learners, responsible global citizens, and champions of our own success.</p>
+                        <a class="btn btn-primary started-button btn btn-success mt-3" href="#" role="button">Get Started</a>
+                    </div>
+                
+                    <!-- Jumbotron Left Image -->
+                    <div class="col-12 col-sm-12 col-md-6 mt-5">
+                        <img class="img-fluid" src="Photos/Illustration.png" width="554" height="346" alt="Online-Learning">
+                    </div>
+                </div>
+              </div>
+    
+        </div>
+    </div>
+
+   <div class="container">
+        <!-- Card Area -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="card-deck col-12 col-sm-12 col-3 mt-5 mb-5">
+                <div class="card text-center">
+                    <div class="d-flex justify-content-center">
+                        <img src="ICON/book.png" class="card-img-top w-25 img-fluid mt-5 p-1" alt="...">
+                    </div>
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">1500+ Topic</h5>
+                    <p class="card-text">Learn Anything</p>
+                  </div>
+                </div>
+                <div class="card text-center sec-card-bg">
+                    <div class="d-flex justify-content-center">
+                  <img src="ICON/Student.png" class="card-img-top w-25 img-fluid mt-5" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title">1800+ Students</h5>
+                    <p class="card-text">Learn Anything</p>
+                  </div>
+                </div>
+                <div class="card text-center">
+                    <div class="d-flex justify-content-center">
+                  <img src="ICON/Test.png" class="card-img-top w-25 img-fluid mt-5" alt="...">
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">9k+ Test Token</h5>
+                    <p class="card-text">Learn Anything</p>
+                  </div>
+                </div>
+                <div class="card text-center">
+                    <div class="d-flex justify-content-center"> 
+                    <img src="ICON/Students.png" class="card-img-top w-25 img-fluid mt-5" alt="...">
+                </div>
+                    <div class="card-body">
+                      <h5 class="card-title">2000+ Students</h5>
+                      <p class="card-text">Learn Anything</p>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- This is the FORM section -->
+    <div>
+        <div class="container">
+            <h2 class="text-center mt-5"><span class="green-highlight">Registration</span></h2>
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email- abcde@example.com">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Enter a Password">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Enter your City">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Click here to choose your State</option>
+                              <option>California</option>
+                              <option>Texas</option>
+                              <option>Forida</option>
+                              <option>Ohio</option>
+                              <option>Arizona</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Enter ZIP Code">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Send Regular Updates
+                            </label>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-success btn-lg btn-block">Register-Now</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- This is online courses area -->
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center mb-5">
+                <h1 class="course-header">Online Courses</h1>
+            </div>
+        </div>
+    </div>
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="card-deck ">
+                    <div class="card buy-course-box">
+                        <img src="Photos/Morder pyschology.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mordern Psychology</h5>
+                            <p class="card-text text-left">Designation</p>
+                            <button type="button" class="btn btn-success button-signup">Buy Course</button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="ICON/calendar.png" width="70%" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <small class="text-muted">Start 21 April,2021</small>
+                                </div>
+                                <div class="col-2">
+                                    <img src="ICON/people.png" width="70%" alt="">
+                                </div>
+                                <div class="col-3">
+                                    <small class="text-muted">60 Seats</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card buy-course-box">
+                        <img src="Photos/Morder psyc.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mordern Psychology</h5>
+                            <p class="card-text text-left">Designation</p>
+                            <button type="button" class="btn btn-success button-signup">Buy Course</button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="ICON/calendar.png" width="70%" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <small class="text-muted">Start 21 April,2021</small>
+                                </div>
+                                <div class="col-2">
+                                    <img src="ICON/people.png" width="70%" alt="">
+                                </div>
+                                <div class="col-3">
+                                    <small class="text-muted">60 Seats</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card buy-course-box">
+                        <img src="Photos/Morder pychons.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mordern Psychology</h5>
+                            <p class="card-text text-left">Designation</p>
+                            <button type="button" class="btn btn-success button-signup">Buy Course</button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="ICON/calendar.png" width="70%" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <small class="text-muted">Start 21 April,2021</small>
+                                </div>
+                                <div class="col-2">
+                                    <img src="ICON/people.png" width="70%" alt="">
+                                </div>
+                                <div class="col-3">
+                                    <small class="text-muted">60 Seats</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <h1 class="course-header">Testimonial</h1>
+                </div>
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="container">
+                    <div class="row mt-3 mb-5 ">
+                        <div class="col-3 .col-12 d-flex align-items-center">
+                            <img src="Photos/Man.png" class="img-fluid round-circle" width="140" height="100" alt="">
+                        </div>
+        
+                        <div class="col-9 d-flex justify-content-start">
+                            <div class="mt-2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fuga in porro qui cumque quia sequi, omnis explicabo reiciendis tenetur, aliquid doloremque tempora maiores quo dolor sit amet consectetur adipisicing elit. Eligendi fuga in porro qui cumque quia sequi, omnis explicabo reiciendis tenetur, aliquid doloremque tempora maiores quo.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+   </div>
+
+   <div class="footer-bg">
+    <div class="container pt-5">
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-3 col-3">
+                <p class="footer-list-title">Millions of people of all ages and from around the world are improving their lives with us.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-3 mb-5">
+                <ul>
+                    <h6 class="footer-list-title">Courses</h6>
+                    <li>
+                        <a href="">Graphic Design</a>
+                    </li>
+                    <li>
+                        <a href="">Web Design</a>
+                    </li>
+                    <li>
+                        <a href="">Business</a>
+                    </li>
+                    <li>
+                        <a href="">Marketing</a>
+                    </li>
+                    <li>
+                        <a href="">Engineering</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-3 mb-5">
+                <ul>
+                    <h6 class="footer-list-title">Terms</h6>
+                    <li>
+                        <a href="">Graphic Design</a>
+                    </li>
+                    <li>
+                        <a href="">Web Design</a>
+                    </li>
+                    <li>
+                        <a href="">Business</a>
+                    </li>
+                    <li>
+                        <a href="">Marketing</a>
+                    </li>
+                    <li>
+                        <a href="">Engineering</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-3 mb-5">
+                <ul>
+                    <h6 class="footer-list-title">Useful Links</h6>
+                    <li>
+                        <a href="">Graphic Design</a>
+                    </li>
+                    <li>
+                        <a href="">Web Design</a>
+                    </li>
+                    <li>
+                        <a href="">Business</a>
+                    </li>
+                    <li>
+                        <a href="">Marketing</a>
+                    </li>
+                    <li>
+                        <a href="">Engineering</a>
+                    </li>
+                </ul>
+            </div>
+
+            
+        </div>
+        <div class="container">
+            <footer>
+                <p class="footer-list-title mt-5">Copyright &copy 2020 Programming-Hero.com</p>
+            </footer>
+        </div>
+    </div>
+</div>
+
+        
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
